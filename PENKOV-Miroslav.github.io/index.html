@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+	
+    <title> Accueil Portfolio </title>
+	
+      <link rel="apple-touch-icon" sizes="512x512" href="https://penkov-miroslav.w3spaces.com/Favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="https://penkov-miroslav.w3spaces.com/Favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="https://penkov-miroslav.w3spaces.com/Favicon/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+    
+      <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <link rel="stylesheet" href="style.css">
+      <style>
+      body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+      .w3-row-padding img {margin-bottom: 12px}
+      .bgimg {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(' https://hext.to/wp-content/uploads/2018/12/shutterstock_1181290198-Converted-1920.jpg'); 
+        min-height: 100%;
+      }
+      </style>
+  </head>
+<body>
+
+<!-- Barre latérale avec image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Barre latérale masquée (s'affiche lorsque vous cliquez sur l'icône du menu)-->
+<nav class="w3-sidebar w3-deep-purple w3-animate-right w3-xxxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-deep-purple w3-xxxlarge w3-display-topright w3-hover-none" style="padding:0 12px;">
+    <i class="fa fa-remove w3-hover-none"></i>
+  </a>
+  <div class="w3-bar-block w3-center ">
+    <a href="#home" class="w3-bar-item w3-button w3-text-black  w3-hover-white-space" onclick="closeNav()"> Accueil</a>
+    <a href="#profil" class="w3-bar-item w3-button w3-text-black w3-hover-white-space" onclick="closeNav()"> Profil</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-black  w3-hover-white-space" onclick="closeNav()"> À propos de moi</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-black  w3-hover-white-space" onclick="closeNav()"> Contactez moi</a>
+  </div>
+</nav>
+
+<!-- Contenu de la page -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Icône de menu pour ouvrir la barre latérale -->
+  <span class="w3-button w3-top w3-transparent w3-xxxlarge w3-text-grey w3-hover-none" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-list" aria-hidden="true"></i></span>
+
+  <!-- Entête -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>PENKOV Miroslav</b></h1>
+	<h4><b>Solutions Logicielles et Applications Métier</b></h4>
+	<img src="https://www.pngarts.com/files/7/Web-Design-PNG-Image-Transparent.png" style="width:70%">
+  </header>
+ 
+  <div class="w3-padding-32 w3-content" id="profil">
+    <h2 class="w3-text-grey">Mon Profil</h2>
+    <hr class="w3-opacity">
+
+    <img src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.6435-9/50320725_974933762700903_1277372837752995840_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=pksQ1X3wYn0AX_SsMSZ&_nc_ht=scontent-cdt1-1.xx&oh=00_AT_Ud2xZ1WEOJgGKmTW0CdIk3SkEt024kfo0Vtwh4tBS-A&oe=63137875" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:200px">
+    <p class="w3-text-black w3-margin-right"><span class="w3-large w3-text-black w3-margin-right">PENKOV Miroslav</span>J’ai 21 ans. Je suis actuellement etudiant au Lycée Jeans Jaures en deuxième année de BTS Services informatiques aux Organisations (BTS SIO SLAM) dans la spécialité de Solutions Logicielles et Applications Métier (SLAM). </p>
+
+  </div>
+
+  <!-- À propos de la rubrique -->
+  <br>
+  <br>
+  <br>
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2 class="w3-text-grey">À propos de moi</h2>
+    <hr class="w3-opacity">
+    <p class="w3-large w3-text-black w3-margin-center-left">J’ai 21 ans. Je suis actuellement etudiant au Lycée Jeans Jaures en deuxième année de BTS Services informatiques aux Organisations (BTS SIO SLAM) dans la spécialité de Solutions Logicielles et Applications Métier (SLAM).
+    </p>
+    <h3 class="w3-padding-16 w3-text-grey">Mes Competance</h3>
+
+    <p class="w3-wide">PHP</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-deep-purple" style="width:75%">75%</div>
+    </div>
+    <p class="w3-wide">C#</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-purple" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide">JAVA</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-deep-purple" style="width:80%">80%</div>
+    </div>
+	<p class="w3-wide">HTML</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-purple" style="width:90%">90%</div>
+    </div>
+	<p class="w3-wide">CSS</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-deep-purple" style="width:80%">80%</div>
+    </div>
+	<p class="w3-wide">PYTHON</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-purple" style="width:70%">70%</div>
+    </div>
+	<p class="w3-wide">Script BASH et BATCH</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-deep-purple" style="width:85%">85%</div>
+    </div>
+	<br>
+<!--
+    <div class="w3-row w3-center w3-pale-blue w3-padding-16 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge"> Projets réaliser +10</span><br>
+        
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Collaboration +10</span><br>
+        
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge"></span><br>
+        
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge"></span><br>
+        
+      </div>
+    </div> -->
+
+	<!-- Bouton Consulter mon CV -->
+    <button class="w3-button w3-dark-grey w3-padding-large w3-section w3-hover-indigo">
+     
+	  <a href="https://penkov-miroslav.w3spaces.com/Miroslav-CV/CV_PENKOV_Miroslav.pdf"  class="fa fa-search w3-large" style="text-decoration:none;"><h6>Consulter mon CV</h6></a>
+    </button>
+	 &nbsp;
+	<!--Bouton Télécharger mon CV-->
+	<button class="w3-button w3-dark-grey w3-padding-large w3-section w3-hover-indigo">
+      
+	  <a href="https://cdn.discordapp.com/attachments/993963008411844640/1007062692298768444/Miroslav_CV.zip" download="PENKOV Miroslav CV"  class="fa fa-download w3-large"  style="text-decoration:none;">	<h6> Télécharger mon CV </h6>   </a>
+
+    </button>
+
+  
+    <!-- Tableaux des projets que j'ai réaliser -->
+    <h3 class="w3-padding-16 w3-text-black">Mes Projets</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Création d'une application pour l'entreprise Wiclic</li>
+          <li class="w3-padding-16"> <img src="https://www.wiclic.fr/wp-content/uploads/2020/05/logo-wiclic.png" style="width:100%"></li>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+			<a href= "projet_wiclic.html" class="w3-button w3-white w3-padding-large w3-hover-black">Voir le projet plus en détail</a>
+		  </li>
+        </ul>
+      </div>
+	  
+	  <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Futur projet</li>
+          <li class="w3-padding-16"> <img src="https://manche-habitat.fr/sites/default/files/images/page-en-construction.png" style="width:100%"></li>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+			<button  class="w3-button w3-white w3-padding-large w3-hover-black">
+			<a href= "page_vide.html" style="text-decoration:none;">Voir le projet plus en détail</a>
+			</button>
+		  </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Futur projet</li>
+          <li class="w3-padding-16"> <img src="https://manche-habitat.fr/sites/default/files/images/page-en-construction.png"style="width:100%"></li>
+          <li class="w3-padding-16">
+            <h2></h2>
+            <span class="w3-opacity"></span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button  class="w3-button w3-white w3-padding-large w3-hover-black">
+			<a href= "page_vide.html" style="text-decoration:none;">Voir le projet plus en détail</a>
+			</button>
+          </li>
+        </ul>
+      </div>
+	  
+    <!-- Fin Tableaux des projets -->
+    </div>
+    
+  <!-- Fin À propos de la rubrique -->
+  </div>
+
+  <!-- Contactez moi -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contactez moi</h2>
+    <hr>
+
+    <div class="w3-section"> 
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> <i class="w3-text-dark-grey w3-medium"> <strong> Emplacement :  23200 Aubusson, FRANCE </strong> </i> </p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> <i class="w3-text-dark-grey w3-medium"> <strong> Téléphone :  07 80 46 86 83 </strong> </i> </p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i> <i class="w3-text-dark-grey w3-medium"> <strong> Adresse Mail :  miroslavpenkov12@gmail.com </strong> </i>  </p>
+	
+    </div>
+    
+    <!-- location/map -->
+	<div class="map-responsive">
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22193.606272939254!2d2.1525770605001346!3d45.947271253041684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f99465ac81c0f1%3A0x405d39260ee2310!2s23200%20Aubusson!5e0!3m2!1sfr!2sfr!4v1659985328921!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+	<br>
+	<p class="w3-text-black"><b>Envoyez-moi un message :</b></p>
+    <form action="/action_page.php" target="_blank">
+	  <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder=" Prénom" required name="Prenom"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nom" required name="Nom"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Adresse Mail" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Objet" required name="Objet"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-dark-grey w3-padding-large  w3-hover-indigo" type="submit">
+          <i class="fa fa-paper-plane"></i> ENVOYER LE MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- Fin de la section des contacts -->
+  </div>  
+  
+  <!-- Bas de page -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px"> 
+  
+	<a href= "https://www.facebook.com/people/Miroslav-Penkov/100005528658966/" class="fa fa-facebook-square w3-hover-opacity w3-wide w3-xxxlarge" style="text-decoration:none;"></a>
+	<a href= "https://www.instagram.com/miroslav_penkov_12/" class="fa fa-instagram w3-hover-opacity w3-wide w3-xxxlarge" style="text-decoration:none;"></a>
+	<a href= "https://t.snapchat.com/KSRmmTp0" class=" fa fa-snapchat-square w3-hover-opacity w3-wide w3-xxxlarge" style="text-decoration:none;"></a>
+	<a href= "https://www.linkedin.com/in/miroslav-penkov-2a3078248/" class="fa fa-linkedin-square w3-hover-opacity w3-wide w3-xxxlarge" style="text-decoration:none;"></a>
+	<p> <b>Copyright© 2022 PENKOV Miroslav. Tous droits réservés.</b></p>
+
+    <!-- Fin Bas de page -->
+  </footer>
+<!-- Fin Contenu de la page -->
+</div>
+
+<script>
+// Ouvrir et fermer la barre latérale
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>

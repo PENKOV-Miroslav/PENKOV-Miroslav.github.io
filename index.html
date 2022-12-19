@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio PENKOV Miroslav</title>
+
+        <link rel="apple-touch-icon" sizes="512x512" href="https://penkov-miroslav.w3spaces.com/Favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://penkov-miroslav.w3spaces.com/Favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://penkov-miroslav.w3spaces.com/Favicon/favicon-16x16.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        
+        <script src="script.js"></script>
+    </head>
+
+        <body onpageshow="copyright()"  id="home">
+
+          <div class="sticky icon-home" ><span onclick="openNav()" class="fa fa-bars"></span></div>          
+            <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+                <a href="#home" onclick="closeNav()">Accueil</a>
+                <a href="#about" onclick="closeNav()">À propos de moi</a>
+                <a href="#projets" onclick="closeNav()">Mes Projets</a>
+                <a href="#veille" onclick="closeNav()">Veille Technologique</a>
+                <a href="#contact" onclick="closeNav()">Contactez moi</a>
+
+              </div>
+            </div>
+              <div>
+                <div class="theme-switch-wrapper centerSwitch">
+                  <label class="theme-switch" for="checkbox">
+                  <input type="checkbox" id="checkbox" />
+                  <div class="slider round" onclick="darkMode()"></div>
+                  </label>
+                  <em>Dark Mode </em>
+                 </div>
+
+            <header class="header">
+                  <h1><b>PENKOV Miroslav</b></h1>
+                  <h4><b>Solutions Logicielles et Applications Métier</b></h4>
+            </header>
+              <div class="main_container">
+                    <h2 id="about">À propos de moi</h2>
+                          <hr>
+                          <br>
+                          <img src="images/avatar.jpg" alt="Avatar" class="avatar">
+                          <br><br>
+                          <p class="container-text">J’ai 21 ans. Je suis actuellement etudiant au Lycée Jeans Jaures en deuxième année de BTS Services informatiques aux Organisations (BTS SIO SLAM) dans la spécialité de Solutions Logicielles et Applications Métier (SLAM).</p>
+                    <h3>Mes Compétences</h3>
+                            <div class=" container-skill">
+                                    <p>HTML</p>
+                                <div class="container">
+                                  <div class="skills html">100%</div>
+                                </div>
+
+                                <p>CSS</p>
+                                <div class="container">
+                                  <div class="skills css">95%</div>
+                                </div>
+
+                                <p>JavaScript</p>
+                                <div class="container">
+                                  <div class="skills js">85%</div>
+                                </div>
+
+                                <p>PHP</p>
+                                <div class="container">
+                                  <div class="skills php">85%</div>
+                                </div>
+                                <div>
+                                  <div> <button id="myBtn" class="button-a fa fa-plus"><span></span></button></div>
+                                  &nbsp; <a href="https://penkov-miroslav.w3spaces.com/CV/CV_Miroslav_PENKOV.pdf" target="_blank" class="button-a" style="text-decoration: none;"> <i class="fa fa-search" aria-hidden="true"></i>  Consulter mon CV</a>
+                                  &nbsp; <a href="https://cdn.discordapp.com/attachments/993963008411844640/1039481612804567050/CV-PENKOV-Miroslav.zip" target="_blank" class="button-a" style="text-decoration: none;">  <i class="fa fa-download" aria-hidden="true"></i>  Télécharger mon CV</a>
+                                </div>
+                              </div>
+
+                                <!-- The Modal -->
+                                <div id="myModal" class="modal">
+
+                                  <!-- Modal content -->
+                                  <div class="modal-content">
+                                    
+                                    <p>Node.js</p>
+                                    <div class="container">
+                                      <div class="skills Node-js">85%</div>
+                                    </div>
+
+                                    <p>Python</p>
+                                    <div class="container">
+                                      <div class="skills python ">80%</div>
+                                    </div>
+
+                                    <p>Java</p>
+                                    <div class="container">
+                                      <div class="skills java">90%</div>
+                                    </div>
+
+                                    <p>C#</p>
+                                    <div class="container">
+                                      <div class="skills csharp">90%</div>
+                                    </div>
+
+                                    <p>SQL</p>
+                                    <div class="container">
+                                      <div class="skills SQL">95%</div>
+                                    </div>
+
+                                    <p>Python</p>
+                                    <div class="container">
+                                      <div class="skills css">80%</div>
+                                    </div>
+
+                                    <p>Java</p>
+                                    <div class="container">
+                                      <div class="skills js">85%</div>
+                                    </div>
+
+                                    <p>C#</p>
+                                    <div class="container">
+                                      <div class="skills php">85%</div>
+                                    </div>
+                                    <span class="close button-a  fa fa-minus"></span>
+                                  </div>
+
+                                  <script src="modal.js"></script>
+
+                                </div>
+                              
+                            </div>
+                          <h2 id="projets">Mes Projets </h2>
+                          <hr>
+                          <br>
+                          <div class="container-projet">
+                          
+                            <button class="accordion">Projet 1</button>
+                            <div class="panel">
+                              <h1>Application Wilic</h1>
+                              <p class="p">Pendant mon Stage chez WICLIC Informatique du 30/05/2022 au 7/07/2022.
+                                J'ai du réaliser une application "client" en
+                                C#, qui permet aux particuliers d’avoir accès aux
+                                applications Wiclic fourni avec leurs abonnements
+                                mensuels ainsi que de contacter le support via une création de ticket si il rencontrent un probleme.
+                                J'ai mis en place un serveur LAMP
+                                permettant le stockage des " tickets support" des
+                                clients ainsi que l'interface de consultation de ces dernier via une application de consultation "administrateurs".
+                                </p>
+                            </div>
+                            
+                            <button class="accordion">Projet 2</button>
+                            <div class="panel">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            
+                            <button class="accordion">Projet 3</button>
+                            <div class="panel">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+
+                            <button class="accordion">Projet 4</button>
+                            <div class="panel">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <script src="projet.js"></script>
+
+                        </div>
+                        
+                        <h2 id="veille">Veille Technologique et Juridique</h2>
+                        <hr>
+                        
+                            <div class="JugeGallery">
+                              <div class="flex-container">
+                                <div class="flex-item-left"> <div> <button id="myBtnJuge" class="fa fa-balance-scale button-a" ><span>Veille Juridique</span></button></div>
+                               <!-- The Modal -->
+                               <div id="myModalVeille" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                 
+                                </div>
+
+                                <script src="modalVeilleJuridique.js"></script>
+
+                              </div>
+                              </div>
+                                
+                                <div class="flex-item-right"> <div> <button id="myBtnTech" class="fa fa-book button-a"><span>Veille Technologique</span></button></div>
+                                                             <!-- The Modal -->
+                                                             <div id="myModalVeilleTech" class="modal">
+
+                                                              <!-- Modal content -->
+                                                              <div class="modal-content">
+                                                                <p>test tech veille</p>
+                                                              </div>
+                              
+                                                              <script src="modalVeilleTech.js"></script>
+                              
+                                                            </div>
+                              </div>
+                              </div>
+                            </div>
+
+                        </div>
+                        
+
+                            <h2 id="contact">Contactez moi </h2>
+                            <hr>
+                              <p><i class="fa fa-map-marker "></i> <i>  Emplacement :  23200 Aubusson, FRANCE </i> </p>
+                              <p><i class="fa fa-phone"></i> <i>  Téléphone :  07 80 46 86 83  </i> </p>
+                            
+                            <p><b>Envoyez-moi un message :</b></p>
+
+                            <div class="container-form">
+                                    <form action="https://formsubmit.co/miroslavpenkov12@gmail.com" method="POST">
+                                    <input  type="text" id="nom" name="nom" required placeholder="Votre nom">
+                                    <input  type="text" id="prenom" name="prenom" required placeholder="Votre prenom">
+                                    <input  type="email" id="email" name="email" required placeholder="Votre e-mail">
+                                    <textarea maxlength="2000" class="textarea" name="message" cols="30" rows="6" placeholder="Tapez votre message ici"></textarea>
+                                    <br>
+                                    <button class="button fa fa-paper-plane" type="submit"> <span>ENVOYER</span> </button>
+                                </form>
+                            </div>
+                            <br>
+                                <footer class="footer"> 
+                                
+                                    <a href= "https://www.facebook.com/people/Miroslav-Penkov/100005528658966/" class="fa fa-facebook-square icon-footer"></a>
+                                    <a href= "https://www.instagram.com/miroslav_penkov_12/" class="fa fa-instagram icon-footer"></a>
+                                    <a href= "https://t.snapchat.com/KSRmmTp0" class=" fa fa-snapchat-square icon-footer"></a>
+                                    <a href= "https://www.linkedin.com/in/miroslav-penkov-2a3078248/" class="fa fa-linkedin-square icon-footer"></a>
+                                    <div id="copyright"></div>
+                                    <!-- Fin Bas de page -->
+                                </footer>
+                    </div>
+        </body>
+</html>

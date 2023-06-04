@@ -2,7 +2,7 @@ function copyright(){
     const paragraph = `
     <i>
       Copyright &copy; ${new Date().getFullYear()} PENKOV Miroslav. Tous droits réservés.
-     <br> <a class="mentionlegal" href= "./mention legal/mentionlegal.pdf">Consulter les mentions légales</a>
+     <br> <a class="mentionlegal" href= "mentionlegal.pdf">Consulter les mentions légales</a>
     </i>
   `;
 

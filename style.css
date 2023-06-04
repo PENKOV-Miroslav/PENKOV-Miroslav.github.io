@@ -26,7 +26,7 @@
   --box-shadow-right:10px 5px 5px 0px #ffffffec;
 }
 .header{
-  background: linear-gradient(#d7d6d680, #c0bfbf33), url('images/menu\ img.jpg');
+  background: linear-gradient(#d7d6d680, #c0bfbf33), url('menu\ img.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

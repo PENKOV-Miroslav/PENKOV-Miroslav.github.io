@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Portfolio PENKOV Miroslav</title>
+
+            <link rel="apple-touch-icon" sizes="512x512" href="images/favicon/android-chrome-512x512.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="style.css">
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="modalAjax.js"></script>
+            
+            <script src="script.js"></script>
+        </head>
+        
+        <body onpageshow="copyright()"  id="home">
+            
+                <div class="sticky icon-home" ><span onclick="openNav()" class="fa fa-bars"></span></div>          
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                            <a href="#home" onclick="closeNav()">Accueil</a>
+                            <a href="#about" onclick="closeNav()">À propos de moi</a>
+                            <a href="#projets" onclick="closeNav()">Mes Projets</a>
+                            <a href="#veille" onclick="closeNav()">Veille Technologique</a>
+                            <a href="#doc" onclick="closeNav()">Documentation</a>
+                            <a href="#contact" onclick="closeNav()">Contactez moi</a>
+
+                        </div>
+                    </div>
+
+
+                    <header class="header">
+                        <div>
+                            <div class="theme-switch-wrapper centerSwitch">
+                            <label class="theme-switch" for="checkbox">
+                            <input type="checkbox" id="checkbox" />
+                            <div class="slider round" onclick="darkMode()"></div>
+                            </label>
+                            <em>Dark Mode </em>
+                        </div>
+                          <h1 class="textPrincipal"><b>PENKOV Miroslav</b></h1>
+                          <h4 class="textPrincipal"><b>Solutions Logicielles et Applications Métier</b></h4>
+                    </header>
+
+
+                                <div class="main_container">
+                                    <h2 id="about">À propos de moi</h2>
+                                        <hr>
+                                        <br>
+                                        <img src="images/avatar.jpg" alt="Avatar" class="avatar">
+                                        <br><br>
+                                        <p class="container-text">J'ai 21 ans. Actuellement, 
+                                            je suis étudiant au Lycée Jean Jaurès, où je poursuis ma deuxième année de formation de BTS Services informatiques aux Organisations (BTS SIO). 
+                                            Ma spécialité est axée sur les Solutions Logicielles et Applications Métier (SLAM).<br><br> Cette formation passionnante me permet d'acquérir 
+                                            les compétences nécessaires pour développer des solutions logicielles adaptées aux besoins des entreprises. J'ai choisi cette spécialité en raison de ma passion pour
+                                             la programmation et mon intérêt pour 
+                                            l'optimisation des processus métier grâce à l'informatique.
+                                             <br><br>Grâce à ce cursus, je suis en mesure de concevoir et de mettre en œuvre des applications informatiques destinées à améliorer la productivité et l'efficacité des organisations. 
+                                            Je suis enthousiaste à l'idée de développer mes connaissances et mes compétences dans ce domaine en évolution constante.</p>
+                                   
+                                        <h3>Mes Compétences</h3>
+                                                <div class=" container-skill">
+
+                                                    <div class="flex-container-image">
+                                                        <div class="image-collection">
+                                                          <div class="image-item">
+                                                            <img src="images/icons8-javascript-480.png" alt="JS">
+                                                            <span class="tooltip">Des compétences en JavaScript et Ajax</span>
+                                                          </div>
+                                                          <div class="image-item">
+                                                            <img src="images/icons8-html-5-480.png" alt="HTML">
+                                                            <span class="tooltip">Des compétences en HTML</span>
+                                                          </div>
+                                                          <div class="image-item">
+                                                            <img src="images/icons8-css3-480.png" alt="CSS">
+                                                            <span class="tooltip">Des compétences en CSS</span>
+                                                          </div>
+                                                          <div class="image-item">
+                                                            <img src="images/icons8-logo-php-480.png" alt="PHP">
+                                                            <span class="tooltip">Des compétences en PHP</span>
+                                                          </div>
+                                                          <div class="image-item">
+                                                            <img src="images/icons8-c-sharp-logo-480.png" alt="CSharp">
+                                                            <span class="tooltip">Des compétences en Csharp</span>
+                                                          </div>
+                                                          <div class="image-item">
+                                                            <img src="images/icons8-android-os-480.png" alt="android">
+                                                            <span class="tooltip">Des compétences en Android Studio</span>
+                                                          </div>
+                                                          <div class="image-item">
+                                                            <img src="images/icons8-bash-480.png" alt="bash">
+                                                            <span class="tooltip">Des compétences en script bash et batch</span>
+                                                          </div>
+                                                          <div class="image-item">
+                                                            <img src="images/icons8-logo-java-coffee-cup-480.png" alt="java">
+                                                            <span class="tooltip">Des compétences en Java</span>
+                                                          </div>
+                                                          <div class="image-item">
+                                                            <img src="images/icons8-oracle-pl-sql-400.png" alt="sql">
+                                                            <span class="tooltip">Des compétences en SQL et géstion de base de données</span>
+                                                          </div>
+                                                          <div class="image-item">
+                                                            <img src="images/icons8-nodejs-480.png" alt="nodejs">
+                                                            <span class="tooltip">Des compétences en NodeJS et Express</span>
+                                                          </div>
+                                                          <!-- Ajoutez d'autres éléments image-item pour chaque image -->
+                                                        </div>
+                                                      </div>
+                                                    <div>
+                                                        
+                                                        <button class="open-modal button-a fa fa-search-plus" data-modal-target="#modal3"><span></span></button>
+                                                        <div id="modal3" class="modal">
+                                                          <div class="modal-content">
+                                                            <span class="close">&times;</span>
+                                                              <div> 
+                                                                <i class="icon-footer"></i>
+                                                                <h2>Conceptes maîtrisés:</h2>
+                                                            </div>
+                                                            
+                                                            <div> 
+                                                                <i class="icon-footer"></i>
+                                                               
+                                                                <div class="listComp">
+                                                                    <div>
+                                                                        <div class="fa fa-dot-circle-o conceptM" aria-hidden="true"> RGPD(Règlement Général sur la Protection des Données)</div>
+                                                                    </div>
+                                                                    <br>
+                                                                    <div>
+                                                                        <div class="fa fa-dot-circle-o conceptM" aria-hidden="true"> POO(Programation Orientée Objets)</div>
+                                                                    </div>
+                                                                    <br>
+                                                                    <div>
+                                                                        <div class="fa fa-dot-circle-o conceptM" aria-hidden="true"> MVC(Méthodes, Vues, Controllers)</div>
+                                                                    </div>
+                                                                    <br>
+                                                                    <div>
+                                                                        <div class="fa fa-dot-circle-o conceptM" aria-hidden="true"> Cybersécurité</div>
+                                                                    </div>
+                                                                    <br>
+                                                                </div>
+                                                            </div>
+                                                            </p>
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                    </div>
+
+                                    <h2 id="projets">Mes Projets </h2>
+                                    <hr>
+                                    <br>
+
+                                    <div class="container-projet">
+                          
+                                        <button class="accordion fa fa-file-code-o"> Projet 1</button>
+                                        <div class="panel">
+                                                 <h1>Application Wilic</h1>
+                                            <p>
+                                              Pendant mon stage chez WICLIC Informatique, qui s'est déroulé du 30 mai 2022 au 7 juillet 2022, j'ai eu l'opportunité de réaliser une application "client" en C# destinée aux particuliers abonnés aux services Wiclic.
+
+                                              <br><br>L'objectif principal de cette application était de fournir aux utilisateurs un accès facile aux différentes applications fournies par Wiclic dans le cadre de leurs abonnements mensuels. Les utilisateurs pouvaient ainsi bénéficier des fonctionnalités offertes par ces applications en toute simplicité.
+                                              
+                                              De plus, j'ai implémenté une fonctionnalité permettant aux utilisateurs de contacter le support technique via la création de tickets en cas de problème ou de question. Cette fonctionnalité visait à offrir un canal de communication efficace entre les utilisateurs et le support technique, facilitant ainsi la résolution des problèmes rencontrés.
+                                              
+                                              <br><br>Pour répondre à ces besoins, j'ai mis en place un serveur LAMP (Linux, Apache, MySQL, PHP) afin de stocker les tickets de support des clients. Ce serveur a également été utilisé pour développer une interface de consultation destinée aux administrateurs. Grâce à cette interface, les administrateurs pouvaient accéder et consulter les tickets soumis par les utilisateurs, leur permettant ainsi de gérer efficacement les demandes et de fournir un support approprié.
+                                              
+                                              <br><br>Ce stage chez WICLIC Informatique a été une expérience enrichissante qui m'a permis d'approfondir mes compétences en développement d'applications et en gestion de bases de données. J'ai pu mettre en pratique mes connaissances en C# et en technologies web, tout en travaillant sur des fonctionnalités essentielles pour améliorer l'expérience des utilisateurs et garantir un support technique de qualité. <br><br>
+                                               
+                                            </p>
+                                            <a href="https://github.com/PENKOV-Miroslav/wiclic-app" target="_blank" class="button-a" style="text-decoration: none;">  <i class="fa fa-share" aria-hidden="true"></i> Lien vers le projet GitHub</a>
+                                        </div>
+                                        
+                                        <button class="accordion fa fa fa-code"> Projet 2</button>
+                                        <div class="panel">
+                                                <h1>ESP32 Electrolux Professional</h1>
+                                          <p>
+                                            Pendant mon stage chez Electrolux Professional, qui s'est déroulé du 3 janvier 2023 au 10 février 2023, j'ai eu l'opportunité de travailler sur un projet d'automatisation des trolleys.
+
+Mon principal objectif était de développer un système permettant d'automatiser les trolleys en utilisant un microcontrôleur ESP32. Dans le cadre de ce projet, j'ai dû connecter un écran ultra basse consommation de type "e-paper" à l'ESP32. Cette technologie d'affichage offre une excellente visibilité tout en consommant très peu d'énergie.
+
+<br><br>Pour afficher les informations pertinentes sur l'écran e-paper, j'ai travaillé en étroite collaboration avec une base de données MariaDB. J'ai mis en place une communication entre l'ESP32 et la base de données afin de récupérer les informations spécifiques relatives à chaque trolley. Ces données comprenaient des détails sur le statut du trolley, les produits transportés, les emplacements, etc. Une fois les informations extraites de la base de données, j'ai programmé l'ESP32 pour les afficher de manière claire et lisible sur l'écran e-paper en utilisant le language C/C++ Arduino.
+
+<br><br>Un autre aspect important de ce projet était d'assurer l'autonomie énergétique de l'appareil. J'ai donc consacré du temps à travailler sur la consommation d'énergie. J'ai utilisé le mode "DeepSleep" disponible sur l'ESP32, qui permet de mettre le microcontrôleur en veille profonde lorsqu'il n'est pas utilisé. Cette fonctionnalité a considérablement prolongé l'autonomie de l'appareil, passant de quelques heures à plusieurs semaines. Il était crucial de trouver le bon équilibre entre la fréquence de mise à jour des informations sur l'écran et la gestion de l'énergie pour optimiser au maximum l'autonomie.
+
+<br><br>Ce stage chez Electrolux Professional a été une expérience extrêmement enrichissante. J'ai pu mettre en pratique mes connaissances en programmation et en électronique, tout en relevant des défis techniques passionnants. Travailler sur l'automatisation des trolleys m'a permis d'approfondir mes compétences dans le domaine de l'IoT (Internet des objets) et de développer une compréhension concrète des enjeux liés à l'efficacité énergétique dans le domaine de l'automatisation industrielle. <br><br>
+                                             </p>
+                                             <a href="https://github.com/PENKOV-Miroslav/Electrolux" target="_blank" class="button-a" style="text-decoration: none;">  <i class="fa fa-share" aria-hidden="true"></i> Lien vers le projet GitHub</a>
+                                         
+                                        </div>
+                                        
+                                        <button class="accordion fa fa-file-code-o"> Projet 3</button>
+                                        <div class="panel">
+                                                <h1>Intranet GSB</h1>
+                                          <p>
+                                            En première partie de la deuxième année de mon BTS, nous avons travaillé sur un projet de PPE (Projet Personnalisé Encadré) passionnant : la conception d'un intranet pour le laboratoire Galaxy Swiss Bourdin, également connu sous le nom de "GSB".
+
+L'objectif principal de ce projet était de maquetter et de concevoir la structure des pages web pour cet intranet. Plus précisément, nous devions créer une application de type CRUD (Create, Read, Update, Delete) permettant la gestion des paiements internes au laboratoire. Cette application devait être dotée d'un système de gestion des comptes avec des droits spécifiques accordés à chaque utilisateur.
+
+<br><br>Nous avons commencé par réaliser la maquette de l'interface utilisateur, en nous assurant de respecter les principes de conception web pour garantir une expérience utilisateur optimale. Ensuite, nous avons procédé à la conception de la structure des pages web, en utilisant les langages de programmation et les technologies appropriées, telles que HTML, CSS et JavaScript.
+
+L'une des principales difficultés rencontrées lors de ce projet était de mettre en place un système de gestion des comptes avec des droits d'accès spécifiques. Nous avons dû définir différents niveaux d'autorisation pour les utilisateurs, leur permettant ainsi d'accéder uniquement aux fonctionnalités qui leur étaient attribuées. Cela a nécessité une planification minutieuse et une implémentation rigoureuse des fonctionnalités de sécurité.
+
+<br><br>Au final, ce projet de PPE nous a permis d'acquérir des compétences précieuses en matière de maquettage, de conception web et de développement d'applications fonctionnelles. Nous avons pu mettre en pratique nos connaissances théoriques et relever les défis liés à la création d'un intranet complet répondant aux besoins spécifiques du laboratoire GSB.<br><br>
+                                          </p>
+                                          <a href="https://github.com/PENKOV-Miroslav/gsb-web-php " target="_blank" class="button-a" style="text-decoration: none;">  <i class="fa fa-share" aria-hidden="true"></i> Lien vers le projet GitHub</a>
+                                        </div>
+            
+                                        <button class="accordion fa fa fa-code"> Projet 4</button>
+                                        <div class="panel">
+                                            <h1>GestCulture</h1>
+                                          <p>
+                                            La Chambre d'Agriculture du Pas-de-Calais (CAPDC) accompagne le développement agricole dans le département
+                                             en mettant à disposition des techniciens un terminal mobile (tablette ou téléphone) avec une application dédiée.
+                                              Cette application permettra aux techniciens de saisir facilement les informations collectées lors de leurs visites sur le terrain.
+                                               Les données seront ensuite envoyées vers un serveur centralisé pour une gestion plus efficace.
+                                               L'application garantira la sécurité des données et contribuera
+                                             à améliorer l'accompagnement des exploitants agricoles en leur offrant un suivi personnalisé et des recommandations adaptées.<br><br>
+                                          </p>
+                                          <a href="https://github.com/PENKOV-Miroslav/GestCulture" target="_blank" class="button-a" style="text-decoration: none;">  <i class="fa fa-share" aria-hidden="true"></i> Lien vers le projet GitHub</a>
+                                        </div>
+
+
+                                        <script src="projet.js"></script>
+
+                                    </div>
+
+                                    <h2 id="veille">Veille Technologique et Juridique</h2>
+                                    <hr>
+
+                                        <div class="JugeGallery">
+                                                <div class="flex-container">
+                                                        <div class="flex-item-left">
+                                                         
+                                                            <button class="open-modal button-alert" data-modal-target="#modal2">Veille Juridique</button>
+                                                            <div id="modal2" class="modal">
+                                                              <div class="modal-content">
+                                                                <span class="close">&times;</span>
+                                                                <h2>La veille juridique pour l'informatique </h2>
+                                                                <p>Elle consiste à surveiller et à suivre les évolutions légales et réglementaires liées à l'utilisation des technologies 
+                                                                  de l'information et de la communication (TIC) dans le domaine de l'informatique. Elle vise à se tenir informé des lois,
+                                                                   des règlements, des normes et des décisions juridiques qui peuvent avoir un impact sur les activités liées à l'informatique.<br>
+                                                                 </p>
+                                                                 <br>
+                                                                 <button class="button-alert" onclick="alertJuge()">intelligence artificielle</button>
+                                                                 <button class="button-alert" onclick="alertJuge1()">Le RGPD</button>
+                                                                 <button class="button-alert" onclick="alertJuge2()">Déliberation CNIL</button>
+                                                               
+                                                              </div>
+                                                            </div>
+                                                        </div>
+
+                                                            <div class="flex-item-right">
+                                                              <button class="open-modal button-alert" data-modal-target="#modal1">Veille Technologique</button>
+                                                                <div id="modal1" class="modal">
+                                                                  <div class="modal-content">
+                                                                    <span class="close">&times;</span>
+                                                                    <h2>La veille technologique pour l'informatique</h2>
+                                                                    <p> Cela consiste à surveiller et à suivre les avancées, les innovations et les tendances technologiques dans le domaine de l'informatique.
+                                                                       Elle vise à se tenir informé des nouvelles technologies, des nouvelles méthodes de développement, des nouveaux outils, des nouvelles architectures, des nouveaux langages de programmation, 
+                                                                      des nouvelles tendances de l'industrie et des évolutions technologiques qui peuvent avoir un impact sur les activités informatiques.<br>
+                                                                    </p>
+                                                                    <br>
+                                                                    <button class="button-alert" onclick="alertTech()">Carbon va-t-il remplacer le C++ ?</button>
+                                                                    <button class="button-alert" onclick="alertTech1()">La stratégie nationale pour l'IA</button>
+                                                                    <button class="button-alert" onclick="alertTech2()">.NET 7 : plateforme unifiée</button>
+                                                                  </div>
+                                                                </div>
+                                                            </div>
+
+
+
+                                                </div>
+                                        </div>
+                                        
+                                    <h2 id="doc"> Documents</h2>
+                                    <hr>
+                                    <div class="container-document">
+                                        <div>
+                                            &nbsp; <a href="CV-PENKOV-Miroslav/CV Miroslav PENKOV.pdf" target="_blank" class="button-a" style="text-decoration: none;"> <i class="fa fa-search" aria-hidden="true"></i>  Consulter mon CV</a>
+                                            &nbsp; <a href="CV-PENKOV-Miroslav/ATTESTATIONSCertif.pdf" target="_blank" class="button-a" style="text-decoration: none;"> <i class="fa fa-search" aria-hidden="true"></i>  Consulter mes cértifications</a>
+                                        </div>
+                                    </div>
+
+                                    <h2 id="contact">Contactez moi </h2>
+                                    <hr>
+
+                                                        <div class="container-form">
+                                                                <form action="https://formsubmit.co/miroslavpenkov12@gmail.com" method="POST">
+                                                                    <input  type="text" id="nom" name="nom" required placeholder="Votre nom">
+                                                                    <input  type="text" id="prenom" name="prenom" required placeholder="Votre prenom">
+                                                                    <input  type="email" id="email" name="email" required placeholder="Votre e-mail">
+                                                                    <textarea maxlength="2000" class="textarea" name="message" cols="30" rows="6" placeholder="Tapez votre message ici"></textarea>
+                                                                    <br>
+                                                                    <button class="button fa fa-paper-plane" type="submit"> <span>ENVOYER</span> </button>
+                                                                </form>
+                                                        </div>
+                                                <br>
+
+                                            
+
+                                                <footer class="footer"> 
+                                
+                                                    <a href= "https://www.linkedin.com/in/miroslav-penkov-2a3078248/" class="fa fa-linkedin-square icon-footer"></a>
+                                                    <a href= "https://github.com/PENKOV-Miroslav" class="fa fa-github-square icon-footer"></a>
+
+                                                    
+                                                    <div id="copyright"></div>
+                                                    <!-- Fin Bas de page -->
+                                                </footer>
+                                                
+                                </div>
+
+        </body>
+</html>
